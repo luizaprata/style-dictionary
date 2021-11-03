@@ -3,7 +3,7 @@ import React from "react";
 import { StyleSheet, Text, View, PixelRatio } from "react-native";
 import * as variables from "./style-dictionary-dist/variables";
 
-export default function App() {
+export default function App(): JSX.Element {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Testing</Text>
