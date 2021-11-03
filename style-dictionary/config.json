@@ -13,7 +13,7 @@
     },
     "rn": {
       "transformGroup": "react-native",
-      "buildPath": "./src/style-dictionary-dist/",
+      "buildPath": "./src/resources/",
       "files": [
         {
           "destination": "variables.js",

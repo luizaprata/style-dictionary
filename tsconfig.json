@@ -9,7 +9,14 @@
     "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@infrastructure/*": ["./src/infrastructure/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@types/*": ["./src/types/*"],
+      "@resources/*": ["./src/resources/*"],
+    }
   },
   "exclude": [
     "node_modules",
