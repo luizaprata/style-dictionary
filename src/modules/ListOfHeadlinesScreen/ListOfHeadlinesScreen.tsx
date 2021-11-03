@@ -1,16 +1,20 @@
 import React from 'react';
-import { View, Text, PixelRatio, StyleSheet } from 'react-native';
+import {View, Text, PixelRatio, StyleSheet} from 'react-native';
 import useHeadlinesApi from './useHeadlinesApi';
 import * as variables from '@resources/variables';
 
 const ListOfCategoriesScreen: React.FC = () => {
-  const { payload, isLoading, errorMessage } = useHeadlinesApi();
+  const {payload, isLoading, errorMessage} = useHeadlinesApi();
 
   console.log(payload);
 
-  if (errorMessage) return <Text>{errorMessage}</Text>;
+  if (errorMessage) {
+    return <Text>{errorMessage}</Text>;
+  }
 
-  if (isLoading) return <Text style={styles.title}>Carregando</Text>;
+  if (isLoading) {
+    return <Text style={styles.title}>Carregando</Text>;
+  }
 
   return (
     <View style={styles.container}>
@@ -38,4 +42,3 @@ const styles = StyleSheet.create({
     color: variables.neutralColor4,
   },
 });
-s;

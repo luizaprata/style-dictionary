@@ -1,7 +1,7 @@
-import { AxiosError } from 'axios';
-import { ApiServerError } from './apiErrors/ApiServerError';
-import { ApiValidationError } from './apiErrors/ApiValidationError';
-import { ApiUnknowError } from './apiErrors/ApiUnknowError';
+import {AxiosError} from 'axios';
+import {ApiServerError} from './apiErrors/ApiServerError';
+import {ApiValidationError} from './apiErrors/ApiValidationError';
+import {ApiUnknowError} from './apiErrors/ApiUnknowError';
 
 type ApiErrorResponse = {
   title: string;
@@ -9,8 +9,8 @@ type ApiErrorResponse = {
 };
 
 const defaultErrorValue: ApiErrorResponse = {
-  title: "Ops!",
-  detail: "Ocorreu um erro inesperado",
+  title: 'Ops!',
+  detail: 'Ocorreu um erro inesperado',
 };
 
 export default function errorHandlingInterceptor(
