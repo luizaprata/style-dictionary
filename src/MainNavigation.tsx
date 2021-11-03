@@ -1,11 +1,10 @@
 import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import ListOfHeadlinesScreen from '@/modules/ListOfHeadlinesScreen/ListOfHeadlinesScreen';
-import { ScreensEnum } from './types/ScreenEnum';
+import {ScreensEnum} from './types/ScreenEnum';
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 export function AppNavigator(): JSX.Element {
   return (
@@ -24,10 +23,8 @@ export function AppNavigator(): JSX.Element {
 
 export default function MainNavigation(): JSX.Element {
   return (
-    <SafeAreaProvider>
-      <NavigationContainer>
-        <AppNavigator />
-      </NavigationContainer>
-    </SafeAreaProvider>
+    <NavigationContainer>
+      <AppNavigator />
+    </NavigationContainer>
   );
 }

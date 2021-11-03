@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Nov 2021 17:28:31 GMT
+ * Generated on Wed, 03 Nov 2021 19:06:47 GMT
  */
 
 export const brandColorPrimary1 = "#fef0ec";
