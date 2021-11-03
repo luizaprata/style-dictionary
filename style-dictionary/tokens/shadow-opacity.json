@@ -1,0 +1,102 @@
+{
+  "shadow": {
+    "level": {
+      "1": {
+        "x": {
+          "value": "0px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "y": {
+          "value": "4px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "b": {
+          "value": "8px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "stack": {
+          "value": "0px 4px 8px",
+          "attributes": { "category": "size", "type": "shadow" }
+        }
+      },
+      "2": {
+        "x": {
+          "value": "0px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "y": {
+          "value": "8px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "b": {
+          "value": "24px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "stack": {
+          "value": "0px 8px 24px",
+          "attributes": { "category": "size", "type": "shadow" }
+        }
+      },
+      "3": {
+        "x": {
+          "value": "0px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "y": {
+          "value": "16px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "b": {
+          "value": "32px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "stack": {
+          "value": "0px 16px 32px",
+          "attributes": { "category": "size", "type": "shadow" }
+        }
+      },
+      "4": {
+        "x": {
+          "value": "0px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "y": {
+          "value": "16px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "b": {
+          "value": "48px",
+          "attributes": { "category": "size", "type": "shadow" }
+        },
+        "stack": {
+          "value": "0px 16px 48px",
+          "attributes": { "category": "size", "type": "shadow" }
+        }
+      }
+    }
+  },
+  "opacity": {
+    "level": {
+      "semiopaque": {
+        "value": "0.80",
+        "attributes": { "category": "level", "type": "opacity" }
+      },
+      "intense": {
+        "value": "0.64",
+        "attributes": { "category": "level", "type": "opacity" }
+      },
+      "medium": {
+        "value": "0.32",
+        "attributes": { "category": "level", "type": "opacity" }
+      },
+      "light": {
+        "value": "0.16",
+        "attributes": { "category": "level", "type": "opacity" }
+      },
+      "semitransparent": {
+        "value": "0.08",
+        "attributes": { "category": "level", "type": "opacity" }
+      }
+    }
+  }
+}
