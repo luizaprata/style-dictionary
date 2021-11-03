@@ -5,14 +5,14 @@ import styled from 'styled-components';
 import * as tokens from '../../style-dictionary-dist/variables.js';
 
 const Box = styled.div({
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-  justifyContent: 'flex-start',
-  margin: `${tokens.SpacingMedium} auto 0`,
-  padding: tokens.SpacingLarge,
-  backgroundColor: tokens.ColorBackground,
-  borderRadius: '10px',
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  justifyContent: "flex-start",
+  margin: `${tokens.spacingSizeMd.original} auto 0`,
+  padding: tokens.spacingSizeLg.original,
+  backgroundColor: tokens.brandColorPrimary1,
+  borderRadius: "10px",
 });
 
 const Media = styled.img`
@@ -23,25 +23,23 @@ const Media = styled.img`
 `;
 
 const Text = styled.div({
-  marginLeft: tokens.SpacingLarge,
-  fontFamily: tokens.FontFamilyBase,
-  fontSize: tokens.SizeTextBase,
-  textAlign: 'left',
-  color: tokens.ColorText,
+  marginLeft: tokens.spacingSizeLg.original,
+  fontSize: tokens.fontSizeXs.original,
+  textAlign: "left",
+  color: tokens.neutralColor3,
 });
 
 const Description = styled.h3({
-  margin: `0 0 ${tokens.SpacingSmall} 0`,
-  fontSize: tokens.SizeTextLarge,
+  margin: `0 0 ${tokens.spacingSquishSizeQuarckH.original} 0`,
+  fontSize: tokens.fontSizeLg.original,
 });
 
 const Reference = styled.p({
   margin: 0,
-  fontFamily: tokens.FontFamilyCode,
 });
 
 const Link = styled.a({
-  color: tokens.ColorBasePrimary,
+  color: tokens.brandColorPrimary1,
 });
 
 class MyComponent extends Component {
