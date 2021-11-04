@@ -4,7 +4,7 @@ import {useEffect} from 'react';
 
 export default function useHeadlinesApi() {
   const {isLoading, errorMessage, payload, clearErrorMessage, fetchData} =
-    useApi<HeadlinesApiResponse>('get', 'top-headlines/country=br/');
+    useApi<HeadlinesApiResponse>('get', 'top-headlines/?country=br');
 
   useEffect(() => {
     fetchData();
