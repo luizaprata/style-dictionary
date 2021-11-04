@@ -26,19 +26,19 @@
   "line": {
     "height": {
       "tight": {
-        "value": "100%",
+        "value": 1,
         "attributes": { "category": "height", "type": "line" }
       },
       "medium": {
-        "value": "110%",
+        "value": 1.1,
         "attributes": { "category": "height", "type": "line" }
       },
       "distant": {
-        "value": "150%",
+        "value": 1.5,
         "attributes": { "category": "height", "type": "line" }
       },
       "superdistant": {
-        "value": "200%",
+        "value": 2,
         "attributes": { "category": "height", "type": "line" }
       }
     }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 03 Nov 2021 19:52:46 GMT
+ * Generated on Thu, 04 Nov 2021 01:43:34 GMT
  */
 
 export const brandColorPrimary1 = "#fef0ec";
@@ -33,10 +33,10 @@ export const borderSizeHairline = {"original":"1px","number":1,"decimal":0.01,"s
 export const borderSizeThin = {"original":"2px","number":2,"decimal":0.02,"scale":32};
 export const borderSizeThick = {"original":"4px","number":4,"decimal":0.04,"scale":64};
 export const borderSizeHeavy = {"original":"8px","number":8,"decimal":0.08,"scale":128};
-export const lineHeightTight = "100%";
-export const lineHeightMedium = "110%";
-export const lineHeightDistant = "150%";
-export const lineHeightSuperdistant = "200%";
+export const lineHeightTight = 1;
+export const lineHeightMedium = 1.1;
+export const lineHeightDistant = 1.5;
+export const lineHeightSuperdistant = 2;
 export const radiusSizeNone = {"original":"0px","number":0,"decimal":0,"scale":0};
 export const radiusSizeSm = {"original":"8px","number":8,"decimal":0.08,"scale":128};
 export const radiusSizeMd = {"original":"16px","number":16,"decimal":0.16,"scale":256};
