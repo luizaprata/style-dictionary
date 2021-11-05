@@ -3,7 +3,7 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "./web/src/resources/",
+      "buildPath": "./build/",
       "files": [
         {
           "destination": "scss/_variables.scss",
@@ -13,7 +13,7 @@
     },
     "rn": {
       "transformGroup": "react-native",
-      "buildPath": "./app/src/resources/",
+      "buildPath": "./src/resources/",
       "files": [
         {
           "destination": "variables.js",
