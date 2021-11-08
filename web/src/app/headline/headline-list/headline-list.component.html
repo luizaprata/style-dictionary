@@ -1,6 +1,6 @@
-<div *ngFor="let article of articles">
-    <h1>{{article.title}}</h1>
-    <h2>{{article.description}}</h2>
-    <p>{{article.content}}</p>
+<div class="cardContent" *ngFor="let article of articles">
+    <h1 class="headingSmall">{{article.title}}</h1>
+    <h2 class="subtitleSmall">{{article.description}}</h2>
+    <p class="paragraph">{{article.content}}</p>
     <button class="buttonPrimary">Veja mais</button>
 </div>

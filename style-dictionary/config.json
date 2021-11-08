@@ -2,7 +2,7 @@
   "source": ["./style-dictionary/tokens/**/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
+      "transformGroup": "custom/scss",
       "buildPath": "./web/src/app/shared/",
       "files": [
         {

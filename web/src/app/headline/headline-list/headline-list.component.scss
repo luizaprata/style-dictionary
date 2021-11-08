@@ -8,60 +8,44 @@
     font-family: $font-family-highlight;
     font-weight: $font-weight-bold;
     color: $neutral-color-5;
+    background-color: $brand-color-primary-3;
+    border: none;
 }
-// export const ButtonPrimary = styled.Text`
-// font-size: ${PixelRatio.getFontScale() * variables.fontSizeSm.number}px;
-// line-height: ${PixelRatio.getFontScale() * variables.fontSizeSm.number * variables.lineHeightTight}px;
-// padding: ${variables.spacingSquishSizeXsV.number}px;
-// font-family: ${variables.fontFamilyHighlight};
-// font-weight: ${variables.fontWeightBold};
-// color: ${variables.neutralColor5};
-// background-color: ${variables.brandColorPrimary3};
 
-// `;
-
-// export const HeadingSmall = styled.Text`
-// font-size: ${PixelRatio.getFontScale() * variables.fontSizeLg.number}px;
-// line-height: ${PixelRatio.getFontScale() * variables.fontSizeLg.number * variables.lineHeightDistant}px;
-// font-family: ${variables.fontFamilyHighlight};
-// font-weight: ${variables.fontWeightBold};
-// color: ${variables.neutralColor1};
-
-// margin-bottom: ${variables.spacingSizeXxxs.number}px;
-
-// `;
-
-// export const SubtitleSmall = styled.Text`
-// font-size: ${PixelRatio.getFontScale() * variables.fontSizeMd.number}px;
-// line-height: ${PixelRatio.getFontScale() * variables.fontSizeMd.number * variables.lineHeightMedium}px;
-// font-family: ${variables.fontFamilyHighlight};
-// font-weight: ${variables.fontWeightMedium};
-// color: ${variables.neutralColor2};
-
-// margin-bottom: ${variables.spacingSizeXxs.number}px;
-
-// `;
-
-// export const Paragraph = styled.Text`
-// font-size: ${PixelRatio.getFontScale() * variables.fontSizeXs.number}px;
-// line-height: ${PixelRatio.getFontScale() * variables.fontSizeXs.number * variables.lineHeightDistant}px;
-// font-family: ${variables.fontFamilyHighlight};
-// font-weight: ${variables.fontWeightRegular};
-// color: ${variables.neutralColor2};
-
-// margin-bottom: ${variables.spacingSizeSm.number}px;
-
-// `;
-
-// export const Shape = styled.View`
-// border-radius: ${variables.radiusSizeNone.number};
-// padding: ${variables.spacingSizeLg.number}px;
-// border-width: ${variables.borderSizeThin.number}px;
-// border-color: ${variables.neutralColor4};
-// background-color: ${variables.neutralColor5};
-// `;
+.headingSmall{
+    font-family: $font-family-highlight;
+    font-size: $font-size-lg;
+    line-height: $line-height-distant;
+    font-weight: $font-weight-bold;
+    color: $neutral-color-1;
+    margin-bottom: $spacing-size-xxxs;
+}
 
 
-// export const CardContent = styled(Shape)`
-// margin-bottom: ${variables.spacingSizeSm.number}px;
-// `;
+.subtitleSmall{
+    font-family: $font-family-highlight;
+    font-size: $font-size-md;
+    line-height: $line-height-medium;
+    font-weight: $font-weight-medium;
+    color: $neutral-color-2;
+    margin-bottom: $spacing-size-xxs;
+}
+
+
+.paragraph{
+    font-family: $font-family-highlight;
+    font-size: $font-size-xs;
+    line-height: $line-height-distant;
+    font-weight: $font-weight-regular;
+    color: $neutral-color-2;
+    margin-bottom: $spacing-size-sm;
+}
+
+
+.cardContent{
+    padding: $spacing-size-lg;
+    border-width: $border-size-thin;
+    border-color:$neutral-color-4;
+    background-color: $neutral-color-5;
+    margin-bottom: $spacing-size-sm;
+}
